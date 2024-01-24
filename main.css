@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#title {
+    color: black;
+}
+
+.header {
+    font-size: 30px;
+    margin: 16px;
+}
+
+.sidebar {
+    background-color: aliceblue;
+    width: 220px;
+    height: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    margin: 12px;
+    text-decoration: none;
+}
+
+.ctn2 {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.footer {
+    height: 50px;
+    background-color: gray;
+}
