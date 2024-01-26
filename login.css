@@ -64,12 +64,23 @@ a {
     width: 100%;
 }
 
-.topic {
-    margin: 20px;
-    font-size: 30px;
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    text-align: center;
+    margin: 10px;
     border: 2px solid black;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+#btn {
+    width: 100px;
 }
 
 .footer {
