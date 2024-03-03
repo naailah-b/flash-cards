@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <title>flashcard project</title>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <div id="title">flash cards!</div>
+            <a id="title" href="index.html">flashcards</a>
         </div>
 
-        <div class="body">
-            <div class="demo">
-                <div id="login">login</div>
-                <div id="register">register</div>
+        <div class="ctn2">
+            <div class="sidebar">
+                <div class="links">
+                    <a href="about.html">about</a>
+                    <div class="line"></div>
+                    <a href="demo.html">demo</a>
+                    <div class="line"></div>
+                    <a href="login.html">login</a>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="body">
+                <div class="flip">
+                    <div class="fin">
+                        <div class="front">
+                            <div id="reg">get started</div>
+                        </div>
+                        <div class="back">
+                            <input id="user" class="inputs" type="text" placeholder="username">
+                            <input id="pass" class="inputs" type="password" placeholder="password">
+                            <div id="box">
+                                <input id="check" type="checkbox">
+                                <div id="show">show password</div>
+                            </div>
+                            <button id="start">lets go</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
         <div class="footer">
-            <div>this was made by me</div>
+            <div>made by me!</div>
         </div>
     </div>
 </body>
+
 </html>
