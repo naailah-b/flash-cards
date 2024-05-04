@@ -1,0 +1,15 @@
+general 
+- 
+- find a way to transform the div onclick 
+
+implement editor mode 
+- make edits to the cards 
+- save the data 
+
+saving data
+- set up a mongodb database and node js for backend
+or 
+find out how to use firebase
+- create a webpage on firebase opposed to git pages
+- save data to firebase
+- using firebase is ideal to learn something new
